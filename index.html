@@ -46,7 +46,8 @@
 
     h2 {
         color: var(--nord5);
-        border-bottom: 1px solid var(--nord3);
+        /* border-bottom: 1px solid var(--nord3); */
+        border-bottom: 2px solid var(--nord8);
         padding-bottom: 5px;
     }
 
@@ -58,16 +59,20 @@
         display: flex;
         flex-wrap: wrap;
         gap: 5px;
+        align-items: center;
     }
 
     .card {
         max-width: 325px;
         color: var(--nord4);
         text-align: center;
+        margin: 0 auto;
 
         img {
             width: 100%;
             height: auto;
+            min-height: 100px;
+            border-radius: 4.75% / 3.5%;
         }
 
         .hidden-label {
